@@ -1,5 +1,6 @@
 function fizzbuzz() {
     for(let i= 1 ; i <=50; i++) {
+        if (i % 3 === 0 && i % 5 === 0){
         console.log("Fizzbuzz");
     }else if (i % 3 === 0) {
         console.log("Fizz")
@@ -8,6 +9,6 @@ function fizzbuzz() {
     }else {
         console.log(i);
     }
-
+    }
 }
 fizzbuzz();
